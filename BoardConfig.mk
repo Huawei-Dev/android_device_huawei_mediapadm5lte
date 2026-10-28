@@ -27,7 +27,6 @@ TARGET_KERNEL_CONFIG += modem.config
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # RIL
-BOARD_PROVIDES_LIBRIL := true
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # Root
