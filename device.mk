@@ -13,6 +13,10 @@ PRODUCT_PACKAGES += \
     fstab.mediapadm5lte \
     fstab.modem
 
+# Device-specific Bluetooth HCI feature compatibility proxy
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0-service.huawei-compat
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay

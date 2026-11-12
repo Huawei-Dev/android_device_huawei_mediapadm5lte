@@ -9,6 +9,8 @@ DEVICE_PATH := device/huawei/mediapadm5lte
 # Inherit from hi3660
 include device/huawei/hi3660/BoardConfigCommon.mk
 
+BOARD_VENDOR_SEPOLICY_DIRS += device/huawei/mediapadm5lte/sepolicy/vendor
+
 # Dynamic partitions (China EMUI 9.1 layout)
 # Reuse preload as backing storage; leave prets and pretvs untouched.
 BOARD_SUPER_PARTITION_BLOCK_DEVICES += preload
